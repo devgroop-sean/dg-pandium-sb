@@ -9,10 +9,10 @@ configs:
         type: string
       free_text_config_2:
         type: string
-      boolean_1:
+      upload_receipts:
         type: boolean
         default: true
-      boolean_2:
+      include_tax_on_tx_lines:
         type: boolean
     type: object
   uischema:
@@ -23,11 +23,11 @@ configs:
     - label: Free Text Field 2
       scope: '#/properties/free_text_config_2'
       type: Control
-    - label: Boolean 1
-      scope: '#/properties/boolean_1'
+    - label: Upload Receipts
+      scope: '#/properties/upload_receipts'
       type: Control
       admin: true
-    - label: Booleansss 2
-      scope: '#/properties/boolean_2'
+    - label: Include Tax on Transaction Lines
+      scope: '#/properties/include_tax_on_tx_lines'
       type: Control
     type: VerticalLayout
