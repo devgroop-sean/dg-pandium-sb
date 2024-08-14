@@ -27,7 +27,7 @@ configs:
       scope: '#/properties/boolean_1'
       type: Control
       admin: true
-    - label: Boolean 2
+    - label: Booleans 2
       scope: '#/properties/boolean_2'
       type: Control
     type: VerticalLayout
